@@ -17,8 +17,8 @@ async def main(connection):
 
     # Open desired tabs; For any folder you want opened, there needs to be a corresponding Iterm2 profile
     new_tabs = [
-        "SICP",
-        "elixir",
+        "junk",
+        "CubeHead",
         None,
     ]
     coros = map(lambda arg: window.async_create_tab(index=arg[0], profile=arg[1]), enumerate(new_tabs))
